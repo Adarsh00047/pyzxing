@@ -10,9 +10,8 @@ import subprocess
 from joblib import Parallel, delayed
 
 from .utils import get_file
-
-preset_jar_url_prefix = "https://github.com/ChenjieXu/pyzxing/releases/download/v0.1/"
-preset_jar_filename = "javase-3.4.1-SNAPSHOT-jar-with-dependencies.jar"
+preset_jar_url_prefix = "https://github.com/Adarsh00047/pyzxing/releases/download/v0.1/"
+preset_jar_filename = "javase-3.5.4-SNAPSHOT-jar-with-dependencies.jar"
 build_jar_dir = str(osp.sep).join(["zxing", "javase", "target"])
 
 
